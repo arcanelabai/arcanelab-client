@@ -1,0 +1,22 @@
+{
+  "name": "arcanelab-client",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "ts": "ENV=local ts-node",
+    "clean:build": "rm -rf dist"
+  },
+  "devDependencies": {
+    "@types/node": "^20.2.4",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "langchain": "^0.0.133"
+  }
+}

@@ -1,7 +1,10 @@
 dist
-lib/temp
+src/temp
 node_modules
 .env
 .env.local
 *.tsbuildinfo
 next-env.d.ts
+*.tgz
+*.js
+*.d.ts

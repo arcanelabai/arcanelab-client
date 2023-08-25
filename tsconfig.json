@@ -8,15 +8,12 @@
     "module": "CommonJS",
     "target": "es2021",
     "moduleResolution": "node",
+    "declaration": true,
     "skipLibCheck": true,
     "resolveJsonModule": true,
-    "outDir": "./dist",
-    "rootDir": "lib"
+    "rootDir": "src",
+    "outDir": "dist",
   },
-  "include": [
-    "lib", 
-    "lib/temp/test-api.ts"  
-  ],
   "exclude": [
     "node_modules",
     "dist"

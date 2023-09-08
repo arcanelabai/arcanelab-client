@@ -7,6 +7,7 @@
   "main": "index.js",
   "scripts": {
     "build": "tsc",
+    "test": "echo \"Hello World\" && exit 0",
     "ts": "ENV=local ts-node",
     "clean:build": "rm -rf dist"
   },

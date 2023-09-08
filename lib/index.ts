@@ -7,7 +7,7 @@ import config from "./config";
 interface ArcaneLabVectorStoreConstructor {
   apiKey: string;
   workspaceId: string;
-  vectorStoreId: string;
+  documentStoreId: string;
   openaiAPIKey: string;
   apiEndpoint?: string;
 }
@@ -27,7 +27,7 @@ class ArcaneLabVectorStore extends VectorStore {
     );
     this.apiKey = params.apiKey;
     this.workspaceId = params.workspaceId;
-    this.vectorStoreId = params.vectorStoreId;
+    this.vectorStoreId = params.documentStoreId;
     this.apiEndpoint = params.apiEndpoint || config.defaultEndpoint;
   }
 

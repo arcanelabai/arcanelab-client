@@ -6,6 +6,10 @@
   "type": "module",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/arcanelabai/langchain-js"
+  },
   "scripts": {
     "prepublish": "npm run build",
     "build": "tsc",
